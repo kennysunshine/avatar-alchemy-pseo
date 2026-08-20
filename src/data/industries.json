@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "b2b-saas",
+    "name": "B2B SaaS Companies",
+    "painPoint": "struggling to acquire high-value enterprise leads without burning cash on paid ads",
+    "benefit": "generate qualified software demos on autopilot",
+    "icon": "Cloud"
+  },
+  {
+    "slug": "recruitment",
+    "name": "Recruitment Agencies",
+    "painPoint": "relying on expensive job boards and cold outreach to find top-tier candidates and clients",
+    "benefit": "attract passive talent and exclusive retained searches automatically",
+    "icon": "Users"
+  },
+  {
+    "slug": "real-estate",
+    "name": "Commercial Real Estate",
+    "painPoint": "missing out on high-net-worth investors searching for specific property types",
+    "benefit": "capture highly-targeted property inquiries while you sleep",
+    "icon": "Building2"
+  },
+  {
+    "slug": "legal",
+    "name": "Law Firms",
+    "painPoint": "paying exorbitant cost-per-click rates for competitive legal keywords on Google Ads",
+    "benefit": "dominate local search and secure high-value retainer clients",
+    "icon": "Scale"
+  },
+  {
+    "slug": "accounting",
+    "name": "Accounting Firms",
+    "painPoint": "blending in with every other local CPA firm during tax season",
+    "benefit": "scale your book of business with year-round corporate clients",
+    "icon": "Calculator"
+  },
+  {
+    "slug": "hvac",
+    "name": "HVAC Businesses",
+    "painPoint": "losing emergency repair calls to competitors with better local visibility",
+    "benefit": "own every neighborhood in your service area",
+    "icon": "Thermometer"
+  },
+  {
+    "slug": "plumbing",
+    "name": "Plumbing Services",
+    "painPoint": "waiting for the phone to ring instead of predictably scaling your fleet",
+    "benefit": "flood your dispatch with high-margin emergency calls",
+    "icon": "Wrench"
+  },
+  {
+    "slug": "roofing",
+    "name": "Roofing Contractors",
+    "painPoint": "relying on unpredictable storm chasing or expensive lead aggregators",
+    "benefit": "build a predictable pipeline of roof replacement projects",
+    "icon": "Home"
+  },
+  {
+    "slug": "dentists",
+    "name": "Dental Practices",
+    "painPoint": "struggling to attract high-margin cosmetic dentistry patients",
+    "benefit": "fill your chairs with patients actively searching for Invisalign and implants",
+    "icon": "Smile"
+  }
+]
