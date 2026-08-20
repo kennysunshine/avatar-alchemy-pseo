@@ -48,8 +48,11 @@ export default async function IndustryPage({ params }: PageProps) {
       <nav className="fixed w-full z-50 bg-[#070b14]/90 backdrop-blur-md border-b border-white/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
-            <a href="https://www.avatar-alchemy.com/" className="flex-shrink-0 flex items-center gap-3 hover:opacity-80 transition-opacity">
-              <div className="relative w-48 h-12">
+            <div className="flex-shrink-0 flex items-center gap-6">
+              <a href="https://www.avatar-alchemy.com/" className="flex items-center gap-2 text-slate-400 hover:text-white transition-colors text-sm font-medium">
+                <span aria-hidden="true">&larr;</span> Back to Main Site
+              </a>
+              <a href="https://www.avatar-alchemy.com/" className="relative w-48 h-12 hidden sm:block hover:opacity-80 transition-opacity">
                 {/* Using the user's logo file */}
                 <Image 
                   src="/main-logo.png" 
@@ -57,8 +60,8 @@ export default async function IndustryPage({ params }: PageProps) {
                   fill 
                   className="object-contain object-left" 
                 />
-              </div>
-            </a>
+              </a>
+            </div>
 
             <div className="flex items-center">
               <a href="https://meet.google.com" target="_blank" rel="noopener noreferrer" className="hidden sm:inline-flex items-center justify-center px-6 py-2.5 text-sm font-bold rounded-full text-white bg-blue-500 hover:bg-blue-600 transition-all shadow-[0_0_20px_rgba(59,130,246,0.3)] hover:shadow-[0_0_30px_rgba(59,130,246,0.5)]">
