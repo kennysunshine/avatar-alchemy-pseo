@@ -3,6 +3,16 @@ import industries from '@/data/industries.json';
 import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
 import ParticleBackground from '@/components/ParticleBackground';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Programmatic SEO Services by Industry | Avatar Alchemy',
+  description:
+    'Avatar Alchemy builds programmatic SEO engines for B2B SaaS, recruitment, legal, real estate, accounting and the trades — thousands of long-tail pages that generate qualified leads.',
+  alternates: {
+    canonical: 'https://pseo.avatar-alchemy.com',
+  },
+};
 
 export default function DirectoryPage() {
   return (

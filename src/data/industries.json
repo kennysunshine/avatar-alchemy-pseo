@@ -21,6 +21,12 @@
         "question": "How do you handle software feature comparisons?",
         "answer": "We programmatically generate 'VS' pages (e.g., YourSaaS vs CompetitorA) at scale to capture high-intent middle-of-funnel searches."
       }
+    ],
+    "exampleQuery": "CRM software for roofing contractors",
+    "exampleSlugs": [
+      "crm-for-roofing-contractors",
+      "yoursaas-vs-competitor",
+      "inventory-software-for-dentists"
     ]
   },
   {
@@ -45,6 +51,12 @@
         "question": "Can you pull job data automatically from our ATS?",
         "answer": "Yes, we can connect our engine directly to Bullhorn, Greenhouse, or Lever to generate SEO pages dynamically from your open reqs."
       }
+    ],
+    "exampleQuery": "Senior Python Developer jobs in Manchester",
+    "exampleSlugs": [
+      "python-developer-jobs-manchester",
+      "devops-engineer-roles-leeds",
+      "cyber-security-recruiters-london"
     ]
   },
   {
@@ -69,6 +81,12 @@
         "question": "How do you avoid duplicate content with MLS listings?",
         "answer": "Our engine enriches property data with unique neighborhood insights, market trends, and AI-generated dynamic copy to ensure Google sees it as highly valuable."
       }
+    ],
+    "exampleQuery": "Class A office space to let in Canary Wharf",
+    "exampleSlugs": [
+      "office-space-to-let-canary-wharf",
+      "industrial-units-for-sale-manchester",
+      "retail-property-investment-birmingham"
     ]
   },
   {
@@ -93,6 +111,12 @@
         "question": "Can you target specific practice areas and counties?",
         "answer": "Yes. Our engine multiplies your practice areas (e.g., DUI, Divorce, Injury) by every county and city in your state."
       }
+    ],
+    "exampleQuery": "car accident solicitor in Birmingham",
+    "exampleSlugs": [
+      "car-accident-solicitor-birmingham",
+      "medical-negligence-lawyer-leeds",
+      "no-win-no-fee-claims-manchester"
     ]
   },
   {
@@ -117,6 +141,12 @@
         "question": "Can we limit the geography to our state?",
         "answer": "We can build the engine for a single city, an entire state, or a nationwide digital-first accounting practice."
       }
+    ],
+    "exampleQuery": "R&D tax relief specialist for software companies",
+    "exampleSlugs": [
+      "rd-tax-relief-for-software-companies",
+      "xero-accountant-for-ecommerce",
+      "contractor-accountants-london"
     ]
   },
   {
@@ -141,6 +171,12 @@
         "question": "Will this help with AC replacements, not just repairs?",
         "answer": "Yes. We create separate page matrices for high-ticket installations, maintenance plans, and emergency repairs."
       }
+    ],
+    "exampleQuery": "emergency boiler repair in Clapham",
+    "exampleSlugs": [
+      "emergency-boiler-repair-clapham",
+      "ac-installation-croydon",
+      "heating-engineer-shoreditch"
     ]
   },
   {
@@ -165,6 +201,12 @@
         "question": "Can we turn off certain locations if we get too busy?",
         "answer": "Absolutely. The programmatic engine allows you to toggle service areas on and off instantly."
       }
+    ],
+    "exampleQuery": "burst pipe repair in Islington",
+    "exampleSlugs": [
+      "burst-pipe-repair-islington",
+      "water-heater-installation-hackney",
+      "blocked-drain-plumber-leeds"
     ]
   },
   {
@@ -189,6 +231,12 @@
         "question": "How do you handle storm damage?",
         "answer": "We can pre-build storm damage and hail repair pages for every zip code, instantly activating them the moment a storm hits."
       }
+    ],
+    "exampleQuery": "flat roof replacement in Bromley",
+    "exampleSlugs": [
+      "flat-roof-replacement-bromley",
+      "storm-damage-roofer-kent",
+      "commercial-roofing-contractors-essex"
     ]
   },
   {
@@ -213,6 +261,12 @@
         "question": "Does this replace our main practice website?",
         "answer": "No. The pSEO engine sits on a subdomain (like services.yourpractice.com) to funnel traffic, while your main site remains untouched."
       }
+    ],
+    "exampleQuery": "dental implants in Wimbledon",
+    "exampleSlugs": [
+      "dental-implants-wimbledon",
+      "invisalign-for-adults-richmond",
+      "teeth-whitening-putney"
     ]
   }
 ]
