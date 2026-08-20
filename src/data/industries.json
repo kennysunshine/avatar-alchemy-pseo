@@ -4,62 +4,215 @@
     "name": "B2B SaaS Companies",
     "painPoint": "struggling to acquire high-value enterprise leads without burning cash on paid ads",
     "benefit": "generate qualified software demos on autopilot",
-    "icon": "Cloud"
+    "icon": "Cloud",
+    "industryStats": "78% of B2B SaaS buyers research online before talking to sales.",
+    "tailoredExplanation": "In the SaaS space, buyers are searching for hyper-specific software solutions like 'CRM for roofing contractors' or 'inventory management for dentists.' Traditional SEO only targets generic terms. We build programmatic pages that capture every single long-tail search intent, driving high-intent traffic directly to your demo request form.",
+    "mockCaseStudy": {
+      "title": "Fintech SaaS Platform",
+      "metric": "+214%",
+      "description": "Increase in qualified demo requests within 6 months of launching 500 programmatic feature-comparison pages."
+    },
+    "faqs": [
+      {
+        "question": "Can you integrate with our Next.js/React frontend?",
+        "answer": "Yes, our engine integrates seamlessly via subdirectories or subdomains to match your exact SaaS branding and tech stack."
+      },
+      {
+        "question": "How do you handle software feature comparisons?",
+        "answer": "We programmatically generate 'VS' pages (e.g., YourSaaS vs CompetitorA) at scale to capture high-intent middle-of-funnel searches."
+      }
+    ]
   },
   {
     "slug": "recruitment",
     "name": "Recruitment Agencies",
     "painPoint": "relying on expensive job boards and cold outreach to find top-tier candidates and clients",
     "benefit": "attract passive talent and exclusive retained searches automatically",
-    "icon": "Users"
+    "icon": "Users",
+    "industryStats": "Over 70% of the global workforce are passive talent who aren't on job boards, but use Google daily.",
+    "tailoredExplanation": "Recruitment is inherently location and role-specific. Candidates don't search for 'jobs,' they search for 'Senior Python Developer roles in Austin, TX.' Our programmatic engine builds landing pages for every single role, industry, and city combination you recruit for, intercepting top talent before they hit LinkedIn.",
+    "mockCaseStudy": {
+      "title": "Specialist Tech Staffing Agency",
+      "metric": "4,200+",
+      "description": "Passive candidate applications generated across 1,200 location-specific job role landing pages."
+    },
+    "faqs": [
+      {
+        "question": "Will this replace our LinkedIn Recruiter seats?",
+        "answer": "No, it supplements outbound efforts by creating a massive inbound channel of candidates searching Google for niche career moves."
+      },
+      {
+        "question": "Can you pull job data automatically from our ATS?",
+        "answer": "Yes, we can connect our engine directly to Bullhorn, Greenhouse, or Lever to generate SEO pages dynamically from your open reqs."
+      }
+    ]
   },
   {
     "slug": "real-estate",
     "name": "Commercial Real Estate",
     "painPoint": "missing out on high-net-worth investors searching for specific property types",
     "benefit": "capture highly-targeted property inquiries while you sleep",
-    "icon": "Building2"
+    "icon": "Building2",
+    "industryStats": "Real estate related searches on Google have grown 22% year-over-year, with a focus on specific neighborhoods.",
+    "tailoredExplanation": "Real estate queries are highly localized. Investors search for 'Class A office space in Downtown Miami' or 'Multifamily properties for sale in Austin.' We programmatically generate optimized landing pages for every neighborhood, property class, and square footage bracket in your portfolio.",
+    "mockCaseStudy": {
+      "title": "Regional CRE Brokerage",
+      "metric": "$42M",
+      "description": "In closed commercial deal volume sourced directly from neighborhood-specific programmatic property pages."
+    },
+    "faqs": [
+      {
+        "question": "Does this work for off-market listings?",
+        "answer": "Yes, we can generate lead-capture pages for specific investment criteria to build a buyer list for your off-market deals."
+      },
+      {
+        "question": "How do you avoid duplicate content with MLS listings?",
+        "answer": "Our engine enriches property data with unique neighborhood insights, market trends, and AI-generated dynamic copy to ensure Google sees it as highly valuable."
+      }
+    ]
   },
   {
     "slug": "legal",
     "name": "Law Firms",
     "painPoint": "paying exorbitant cost-per-click rates for competitive legal keywords on Google Ads",
     "benefit": "dominate local search and secure high-value retainer clients",
-    "icon": "Scale"
+    "icon": "Scale",
+    "industryStats": "Legal keywords are among the most expensive on Google Ads, often exceeding $100 per click.",
+    "tailoredExplanation": "Legal clients search for highly specific scenarios like 'Car accident lawyer for rear-end collisions in Chicago.' Instead of paying $100 per click, we build thousands of localized, scenario-specific landing pages that rank organically and capture high-intent clients right when they need help.",
+    "mockCaseStudy": {
+      "title": "Multi-State Personal Injury Firm",
+      "metric": "85%",
+      "description": "Reduction in Customer Acquisition Cost (CAC) by shifting from paid search to 5,000 localized injury scenario pages."
+    },
+    "faqs": [
+      {
+        "question": "Is programmatic SEO compliant with Bar Association advertising rules?",
+        "answer": "Absolutely. The pages are highly factual, educational, and avoid any prohibited guarantees, acting as localized informational hubs."
+      },
+      {
+        "question": "Can you target specific practice areas and counties?",
+        "answer": "Yes. Our engine multiplies your practice areas (e.g., DUI, Divorce, Injury) by every county and city in your state."
+      }
+    ]
   },
   {
     "slug": "accounting",
     "name": "Accounting Firms",
     "painPoint": "blending in with every other local CPA firm during tax season",
     "benefit": "scale your book of business with year-round corporate clients",
-    "icon": "Calculator"
+    "icon": "Calculator",
+    "industryStats": "64% of small businesses search online when looking to switch CPAs or find specialized tax help.",
+    "tailoredExplanation": "Businesses don't just look for an 'accountant'—they search for 'R&D tax credit specialist in Seattle' or 'E-commerce bookkeeper for Shopify.' Our pSEO engine creates tailored landing pages for every specialized accounting service across every industry you serve, capturing high-ticket corporate clients year-round.",
+    "mockCaseStudy": {
+      "title": "Boutique CPA Firm",
+      "metric": "42",
+      "description": "New high-retainer corporate clients signed in 12 months through niche-specific tax strategy pages."
+    },
+    "faqs": [
+      {
+        "question": "Does this work for specialized tax credits like ERTC or R&D?",
+        "answer": "Yes, that is where pSEO shines. We generate pages combining tax credits with specific industries (e.g., 'R&D Tax Credits for Manufacturing Firms')."
+      },
+      {
+        "question": "Can we limit the geography to our state?",
+        "answer": "We can build the engine for a single city, an entire state, or a nationwide digital-first accounting practice."
+      }
+    ]
   },
   {
     "slug": "hvac",
     "name": "HVAC Businesses",
     "painPoint": "losing emergency repair calls to competitors with better local visibility",
     "benefit": "own every neighborhood in your service area",
-    "icon": "Thermometer"
+    "icon": "Thermometer",
+    "industryStats": "Over 80% of HVAC searches are local, emergency-driven queries performed on mobile devices.",
+    "tailoredExplanation": "When a furnace breaks in winter, homeowners search for 'emergency furnace repair in [Neighborhood].' Traditional SEO only targets your main city. Our programmatic engine generates a dedicated, hyper-localized page for every single suburb, neighborhood, and zip code in your service area.",
+    "mockCaseStudy": {
+      "title": "Regional HVAC Contractor",
+      "metric": "315%",
+      "description": "Increase in emergency dispatch calls during peak season after launching 300 neighborhood-specific repair pages."
+    },
+    "faqs": [
+      {
+        "question": "How do you get content for 300 different neighborhoods?",
+        "answer": "We use programmatic data enrichment to pull in local neighborhood data, localized maps, and dynamic service areas to make each page uniquely valuable."
+      },
+      {
+        "question": "Will this help with AC replacements, not just repairs?",
+        "answer": "Yes. We create separate page matrices for high-ticket installations, maintenance plans, and emergency repairs."
+      }
+    ]
   },
   {
     "slug": "plumbing",
     "name": "Plumbing Services",
     "painPoint": "waiting for the phone to ring instead of predictably scaling your fleet",
     "benefit": "flood your dispatch with high-margin emergency calls",
-    "icon": "Wrench"
+    "icon": "Wrench",
+    "industryStats": "Plumbing is highly localized; 92% of consumers choose a plumber on the first page of local search results.",
+    "tailoredExplanation": "People search for their exact problem and their exact location, like 'burst pipe repair in Westside.' Our pSEO engine combines your service list (water heaters, drain cleaning, leaks) with every local neighborhood to ensure you own the search results right when the customer needs you most.",
+    "mockCaseStudy": {
+      "title": "Family-Owned Plumbing Fleet",
+      "metric": "4x",
+      "description": "Growth in commercial plumbing contracts and water heater replacements driven by targeted local search pages."
+    },
+    "faqs": [
+      {
+        "question": "Are these pages mobile optimized?",
+        "answer": "Yes. Knowing that most plumbing searches are emergencies on mobile, our Next.js pages load in milliseconds with click-to-call buttons front and center."
+      },
+      {
+        "question": "Can we turn off certain locations if we get too busy?",
+        "answer": "Absolutely. The programmatic engine allows you to toggle service areas on and off instantly."
+      }
+    ]
   },
   {
     "slug": "roofing",
     "name": "Roofing Contractors",
     "painPoint": "relying on unpredictable storm chasing or expensive lead aggregators",
     "benefit": "build a predictable pipeline of roof replacement projects",
-    "icon": "Home"
+    "icon": "Home",
+    "industryStats": "Roofing leads from aggregators (like Angi) are sold to 3-5 competitors simultaneously, driving down margins.",
+    "tailoredExplanation": "To escape the aggregator rat race, you need to intercept homeowners *before* they go to HomeAdvisor. Homeowners search for 'asphalt shingle repair in [City]' or 'commercial flat roof replacement in [County].' We programmatically generate these exact pages to capture exclusive leads.",
+    "mockCaseStudy": {
+      "title": "Commercial & Residential Roofer",
+      "metric": "$2.4M",
+      "description": "In new annual revenue generated purely from exclusive, inbound leads through local service pages."
+    },
+    "faqs": [
+      {
+        "question": "Can we target both commercial and residential?",
+        "answer": "Yes. We build two separate funnels within the engine: one targeting B2B property managers and one for residential homeowners."
+      },
+      {
+        "question": "How do you handle storm damage?",
+        "answer": "We can pre-build storm damage and hail repair pages for every zip code, instantly activating them the moment a storm hits."
+      }
+    ]
   },
   {
     "slug": "dentists",
     "name": "Dental Practices",
     "painPoint": "struggling to attract high-margin cosmetic dentistry patients",
     "benefit": "fill your chairs with patients actively searching for Invisalign and implants",
-    "icon": "Smile"
+    "icon": "Smile",
+    "industryStats": "Cosmetic dentistry searches (like veneers and implants) have high search volumes but massive local competition.",
+    "tailoredExplanation": "Patients don't just search for 'dentist.' They search for 'affordable dental implants in [Neighborhood]' or 'Invisalign for adults in [City].' We build a comprehensive programmatic engine that maps every single cosmetic and restorative procedure you offer to every surrounding town and suburb.",
+    "mockCaseStudy": {
+      "title": "Multi-Location Dental Group",
+      "metric": "+140",
+      "description": "New high-value cosmetic patient bookings per month directly attributed to long-tail procedure searches."
+    },
+    "faqs": [
+      {
+        "question": "We have 3 office locations. How does this work?",
+        "answer": "Perfect. We use your physical locations as the 'hubs' and generate programmatic 'spoke' pages targeting all the surrounding suburbs without physical offices."
+      },
+      {
+        "question": "Does this replace our main practice website?",
+        "answer": "No. The pSEO engine sits on a subdomain (like services.yourpractice.com) to funnel traffic, while your main site remains untouched."
+      }
+    ]
   }
 ]

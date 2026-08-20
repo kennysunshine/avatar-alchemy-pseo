@@ -150,9 +150,24 @@ export default async function IndustryPage({ params }: PageProps) {
               <p className="text-lg text-slate-400 mb-6 leading-relaxed">
                 Traditional SEO often relies on guessing generic keywords and fighting for highly competitive terms. It is slow, unpredictable, and scales poorly for {industry.name}.
               </p>
-              <p className="text-lg text-slate-400 mb-8 leading-relaxed">
-                <strong>Programmatic SEO (pSEO)</strong> flips the script. Instead of targeting a handful of generic keywords, we build a <span className="text-white font-medium">data-driven engine</span>. By combining your core services with hundreds of locations, modifiers, and specific search intents, we programmatically target thousands of untapped, high-converting keyword variations instantly.
-              </p>
+              
+              {/* Dynamic Tailored Content */}
+              <div className="p-6 my-8 border border-blue-500/20 bg-blue-500/5 rounded-xl">
+                 <p className="text-blue-400 font-semibold mb-2">Why it works for {industry.name}:</p>
+                 <p className="text-lg text-slate-300 leading-relaxed">
+                    {industry.tailoredExplanation}
+                 </p>
+              </div>
+              
+              <div className="flex items-start gap-4 mb-8 p-6 bg-emerald-500/5 border border-emerald-500/20 rounded-xl">
+                 <div className="flex-shrink-0 w-12 h-12 rounded-full bg-emerald-500/20 flex items-center justify-center border border-emerald-500/30">
+                    <LineChart className="w-6 h-6 text-emerald-400" />
+                 </div>
+                 <div>
+                    <h4 className="text-white font-bold text-lg mb-1">{industry.mockCaseStudy.title}</h4>
+                    <p className="text-slate-400"><span className="text-emerald-400 font-bold">{industry.mockCaseStudy.metric}</span> {industry.mockCaseStudy.description}</p>
+                 </div>
+              </div>
               
               <ul className="space-y-4">
                 <li className="flex items-start">
@@ -165,7 +180,7 @@ export default async function IndustryPage({ params }: PageProps) {
                   <div className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-500/20 flex items-center justify-center border border-blue-500/30 mt-1">
                     <Zap className="w-3.5 h-3.5 text-blue-400" />
                   </div>
-                  <p className="ml-3 text-slate-300">Generate 100x more traffic than a standard 5-page website.</p>
+                  <p className="ml-3 text-slate-300">{industry.industryStats}</p>
                 </li>
                 <li className="flex items-start">
                   <div className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-500/20 flex items-center justify-center border border-blue-500/30 mt-1">
@@ -218,6 +233,28 @@ export default async function IndustryPage({ params }: PageProps) {
               </div>
             </div>
 
+          </div>
+        </div>
+      </section>
+
+      {/* Industry Specific FAQs */}
+      <section className="py-24 relative overflow-hidden bg-[#070b14]">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl font-bold text-white mb-4">Frequently Asked Questions</h2>
+            <p className="text-slate-400">Common questions from {industry.name}</p>
+          </div>
+          <div className="space-y-6">
+            {industry.faqs.map((faq, idx) => (
+              <div key={idx} className="p-8 bg-[#0d1527] border border-white/5 rounded-2xl shadow-xl">
+                <h3 className="text-xl font-bold text-white mb-4 flex items-start">
+                  <span className="text-blue-500 mr-3">Q.</span> {faq.question}
+                </h3>
+                <p className="text-lg text-slate-400 leading-relaxed flex items-start">
+                  <span className="text-emerald-500 mr-3 font-bold">A.</span> {faq.answer}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
