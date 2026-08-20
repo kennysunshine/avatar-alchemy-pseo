@@ -148,10 +148,10 @@ export default async function IndustryPage({ params }: PageProps) {
                 What is <span className="text-blue-500">Programmatic SEO?</span>
               </h2>
               <p className="text-lg text-slate-400 mb-6 leading-relaxed">
-                Traditional SEO relies on manually writing blog posts one by one—hoping they eventually rank. It is slow, expensive, and scales poorly for {industry.name}.
+                Traditional SEO often relies on guessing generic keywords and fighting for highly competitive terms. It is slow, unpredictable, and scales poorly for {industry.name}.
               </p>
               <p className="text-lg text-slate-400 mb-8 leading-relaxed">
-                **Programmatic SEO (pSEO)** flips the script. Instead of writing 1,000 articles, we build a <span className="text-white font-medium">data-driven engine</span>. By combining your core services with hundreds of locations or specific intents, we programmatically generate thousands of highly-optimized, conversion-focused landing pages instantly.
+                <strong>Programmatic SEO (pSEO)</strong> flips the script. Instead of targeting a handful of generic keywords, we build a <span className="text-white font-medium">data-driven engine</span>. By combining your core services with hundreds of locations, modifiers, and specific search intents, we programmatically target thousands of untapped, high-converting keyword variations instantly.
               </p>
               
               <ul className="space-y-4">
