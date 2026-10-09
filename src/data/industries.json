@@ -2,57 +2,111 @@
   {
     "slug": "b2b-saas",
     "name": "B2B SaaS Companies",
-    "painPoint": "struggling to acquire high-value enterprise leads without burning cash on paid ads",
-    "benefit": "generate qualified software demos on autopilot",
+    "painPoint": "relying on paid ads and outbound to fill your demo calendar",
+    "benefit": "turn specific software searches into demo requests",
     "icon": "Cloud",
-    "industryStats": "78% of B2B SaaS buyers research online before talking to sales.",
-    "tailoredExplanation": "In the SaaS space, buyers are searching for hyper-specific software solutions like 'CRM for roofing contractors' or 'inventory management for dentists.' Traditional SEO only targets generic terms. We build programmatic pages that capture every single long-tail search intent, driving high-intent traffic directly to your demo request form.",
-    "mockCaseStudy": {
-      "title": "Fintech SaaS Platform",
-      "metric": "+214%",
-      "description": "Increase in qualified demo requests within 6 months of launching 500 programmatic feature-comparison pages."
+    "searcher": "An operations manager at a roofing firm who has outgrown spreadsheets",
+    "exampleQuery": "CRM software for roofing contractors",
+    "pageShows": "a page built for that exact use case: the problems roofing firms have with generic CRMs, the features of your product that solve them, and how you compare with the obvious alternatives",
+    "action": "book a demo straight from the page",
+    "tailoredExplanation": "Software buyers rarely search for your category name on its own. They search for a tool that fits their situation, like 'CRM for roofing contractors', 'inventory software for dental practices' or 'YourProduct vs CompetitorX'. Each of those is a small, high-intent search. I build a page for every combination of use case, industry and comparison you can genuinely serve, so you show up for all of them.",
+    "matrix": {
+      "rowLabel": "use cases",
+      "rows": [
+        "Job scheduling",
+        "Quoting",
+        "Invoicing",
+        "Customer portal"
+      ],
+      "rowCount": 10,
+      "colLabel": "industries you serve",
+      "cols": [
+        "Roofers",
+        "Dentists",
+        "Recruiters",
+        "Accountants"
+      ],
+      "colCount": 30
     },
+    "samplePage": {
+      "url": "/crm-for-roofing-contractors",
+      "title": "CRM software for roofing contractors",
+      "intro": "Roofing firms juggle site surveys, quotes, weather delays and crews. Most CRMs were built for sales teams, not trades.",
+      "points": [
+        "Built-in survey and quote templates for roofing jobs",
+        "Weather-delay rescheduling without losing the job history",
+        "How we compare with general-purpose CRMs"
+      ],
+      "cta": "Book a 20-minute demo"
+    },
+    "valueLabel": "a new customer in their first year",
     "faqs": [
       {
-        "question": "Can you integrate with our Next.js/React frontend?",
-        "answer": "Yes, our engine integrates seamlessly via subdirectories or subdomains to match your exact SaaS branding and tech stack."
+        "question": "Can the pages sit on our existing site?",
+        "answer": "Yes. The pages can live in a subfolder or on a subdomain and use your branding, so they look like part of your site rather than a bolt-on."
       },
       {
-        "question": "How do you handle software feature comparisons?",
-        "answer": "We programmatically generate 'VS' pages (e.g., YourSaaS vs CompetitorA) at scale to capture high-intent middle-of-funnel searches."
+        "question": "How do you handle comparison pages?",
+        "answer": "Comparison pages ('YourProduct vs CompetitorX') are built from facts you sign off: features, pricing models and who each tool suits. They stay factual, because inaccurate comparisons hurt trust and can create legal risk."
       }
     ],
-    "exampleQuery": "CRM software for roofing contractors",
     "exampleSlugs": [
       "crm-for-roofing-contractors",
-      "yoursaas-vs-competitor",
+      "yourproduct-vs-competitor",
       "inventory-software-for-dentists"
     ]
   },
   {
     "slug": "recruitment",
     "name": "Recruitment Agencies",
-    "painPoint": "relying on expensive job boards and cold outreach to find top-tier candidates and clients",
-    "benefit": "attract passive talent and exclusive retained searches automatically",
+    "painPoint": "relying on job boards and cold outreach for candidates and clients",
+    "benefit": "get found by candidates and hiring managers searching for your exact specialism",
     "icon": "Users",
-    "industryStats": "Over 70% of the global workforce are passive talent who aren't on job boards, but use Google daily.",
-    "tailoredExplanation": "Recruitment is inherently location and role-specific. Candidates don't search for 'jobs,' they search for 'Senior Python Developer roles in Austin, TX.' Our programmatic engine builds landing pages for every single role, industry, and city combination you recruit for, intercepting top talent before they hit LinkedIn.",
-    "mockCaseStudy": {
-      "title": "Specialist Tech Staffing Agency",
-      "metric": "4,200+",
-      "description": "Passive candidate applications generated across 1,200 location-specific job role landing pages."
+    "searcher": "A Python developer in Manchester quietly looking for their next move",
+    "exampleQuery": "Senior Python developer jobs in Manchester",
+    "pageShows": "a page for that role in that city: your live vacancies, the skills employers there are asking for, and why candidates work with your agency",
+    "action": "apply or send their CV to you, not a job board",
+    "tailoredExplanation": "Candidates search for a role in a place, like 'Senior Python developer jobs in Manchester'. Hiring managers search for a specialism, like 'cyber security recruiters in London'. I build a page for every role and location you actually recruit for, so you show up for both sides of the market.",
+    "matrix": {
+      "rowLabel": "roles you recruit for",
+      "rows": [
+        "Python developer",
+        "DevOps engineer",
+        "Data analyst",
+        "Cyber security"
+      ],
+      "rowCount": 15,
+      "colLabel": "cities",
+      "cols": [
+        "Manchester",
+        "Leeds",
+        "Bristol",
+        "London"
+      ],
+      "colCount": 20
     },
+    "samplePage": {
+      "url": "/python-developer-jobs-manchester",
+      "title": "Senior Python developer jobs in Manchester",
+      "intro": "Live Python roles across Greater Manchester, from fintech to e-commerce, with salary bands shown up front.",
+      "points": [
+        "Current vacancies, pulled from your job board",
+        "The skills Manchester employers are asking for",
+        "How we work with candidates"
+      ],
+      "cta": "Send your CV"
+    },
+    "valueLabel": "one placement",
     "faqs": [
       {
         "question": "Will this replace our LinkedIn Recruiter seats?",
-        "answer": "No, it supplements outbound efforts by creating a massive inbound channel of candidates searching Google for niche career moves."
+        "answer": "No. It adds an inbound channel alongside your outbound work: people searching Google for the roles and specialisms you cover."
       },
       {
-        "question": "Can you pull job data automatically from our ATS?",
-        "answer": "Yes, we can connect our engine directly to Bullhorn, Greenhouse, or Lever to generate SEO pages dynamically from your open reqs."
+        "question": "Can pages update from our ATS?",
+        "answer": "If your ATS has an export or API (Bullhorn, Greenhouse and Lever all do), I can build pages from your live roles, so filled jobs drop off and new ones appear without anyone editing the site."
       }
     ],
-    "exampleQuery": "Senior Python Developer jobs in Manchester",
     "exampleSlugs": [
       "python-developer-jobs-manchester",
       "devops-engineer-roles-leeds",
@@ -61,28 +115,55 @@
   },
   {
     "slug": "real-estate",
-    "name": "Commercial Real Estate",
-    "painPoint": "missing out on high-net-worth investors searching for specific property types",
-    "benefit": "capture highly-targeted property inquiries while you sleep",
+    "name": "Commercial Property Agents",
+    "painPoint": "missing investors and occupiers searching for specific property types in specific places",
+    "benefit": "capture enquiries for every property type and location you cover",
     "icon": "Building2",
-    "industryStats": "Real estate related searches on Google have grown 22% year-over-year, with a focus on specific neighborhoods.",
-    "tailoredExplanation": "Real estate queries are highly localized. Investors search for 'Class A office space in Downtown Miami' or 'Multifamily properties for sale in Austin.' We programmatically generate optimized landing pages for every neighborhood, property class, and square footage bracket in your portfolio.",
-    "mockCaseStudy": {
-      "title": "Regional CRE Brokerage",
-      "metric": "$42M",
-      "description": "In closed commercial deal volume sourced directly from neighborhood-specific programmatic property pages."
+    "searcher": "A growing firm's office manager looking for a bigger space",
+    "exampleQuery": "office space to let in Canary Wharf",
+    "pageShows": "a page for that property type in that area: your current availability, typical size ranges, transport links and what's nearby",
+    "action": "register their requirements with you",
+    "tailoredExplanation": "Commercial property searches are specific: a type, a size and a place, like 'office space to let in Canary Wharf' or 'industrial units for sale in Manchester'. I build a page for every property type and location you cover, so occupiers and investors land on your listings instead of a portal's.",
+    "matrix": {
+      "rowLabel": "property types",
+      "rows": [
+        "Office to let",
+        "Industrial units",
+        "Retail",
+        "Investment"
+      ],
+      "rowCount": 8,
+      "colLabel": "locations",
+      "cols": [
+        "Canary Wharf",
+        "Shoreditch",
+        "Croydon",
+        "Reading"
+      ],
+      "colCount": 40
     },
+    "samplePage": {
+      "url": "/office-space-to-let-canary-wharf",
+      "title": "Office space to let in Canary Wharf",
+      "intro": "Offices available now across Canary Wharf, from small serviced suites to whole floors.",
+      "points": [
+        "Current availability by size",
+        "Transport links and what's nearby",
+        "Register your requirements and get new listings first"
+      ],
+      "cta": "Register your requirements"
+    },
+    "valueLabel": "one completed deal",
     "faqs": [
       {
-        "question": "Does this work for off-market listings?",
-        "answer": "Yes, we can generate lead-capture pages for specific investment criteria to build a buyer list for your off-market deals."
+        "question": "Does this work for off-market deals?",
+        "answer": "Yes. Pages can collect investor and occupier requirements by type and area, which builds a buyer list you can work for off-market opportunities."
       },
       {
-        "question": "How do you avoid duplicate content with MLS listings?",
-        "answer": "Our engine enriches property data with unique neighborhood insights, market trends, and AI-generated dynamic copy to ensure Google sees it as highly valuable."
+        "question": "Won't this duplicate the portals?",
+        "answer": "The pages are built around the area and the requirement, not just a copy of listing text. Each one carries local detail and your own availability, which is what makes it worth indexing."
       }
     ],
-    "exampleQuery": "Class A office space to let in Canary Wharf",
     "exampleSlugs": [
       "office-space-to-let-canary-wharf",
       "industrial-units-for-sale-manchester",
@@ -92,57 +173,111 @@
   {
     "slug": "legal",
     "name": "Law Firms",
-    "painPoint": "paying exorbitant cost-per-click rates for competitive legal keywords on Google Ads",
-    "benefit": "dominate local search and secure high-value retainer clients",
+    "painPoint": "paying high cost-per-click rates for competitive legal searches",
+    "benefit": "show up for the specific legal problems people search for in your area",
     "icon": "Scale",
-    "industryStats": "Legal keywords are among the most expensive on Google Ads, often exceeding $100 per click.",
-    "tailoredExplanation": "Legal clients search for highly specific scenarios like 'Car accident lawyer for rear-end collisions in Chicago.' Instead of paying $100 per click, we build thousands of localized, scenario-specific landing pages that rank organically and capture high-intent clients right when they need help.",
-    "mockCaseStudy": {
-      "title": "Multi-State Personal Injury Firm",
-      "metric": "85%",
-      "description": "Reduction in Customer Acquisition Cost (CAC) by shifting from paid search to 5,000 localized injury scenario pages."
+    "searcher": "Someone in Birmingham who was hurt in a car accident last week",
+    "exampleQuery": "car accident solicitor in Birmingham",
+    "pageShows": "a page about that type of claim in that area: what the process looks like, what to gather now, and how your firm handles it",
+    "action": "call or fill in your enquiry form",
+    "tailoredExplanation": "People search for a legal problem in a place, like 'car accident solicitor in Birmingham' or 'medical negligence lawyer in Leeds'. Those clicks are expensive on Google Ads. I build a page for each practice area and location you serve, so you can win them organically instead of paying for every visit.",
+    "matrix": {
+      "rowLabel": "practice areas",
+      "rows": [
+        "Road traffic accidents",
+        "Medical negligence",
+        "Divorce",
+        "Employment"
+      ],
+      "rowCount": 8,
+      "colLabel": "towns and cities",
+      "cols": [
+        "Birmingham",
+        "Coventry",
+        "Wolverhampton",
+        "Solihull"
+      ],
+      "colCount": 30
     },
+    "samplePage": {
+      "url": "/car-accident-solicitor-birmingham",
+      "title": "Car accident solicitors in Birmingham",
+      "intro": "If you've been hurt in a road accident in Birmingham, here's what the claims process looks like and what to do first.",
+      "points": [
+        "What to gather in the first week",
+        "How long claims usually take",
+        "Speak to our team for an initial chat"
+      ],
+      "cta": "Request a callback"
+    },
+    "valueLabel": "one new client matter",
     "faqs": [
       {
-        "question": "Is programmatic SEO compliant with Bar Association advertising rules?",
-        "answer": "Absolutely. The pages are highly factual, educational, and avoid any prohibited guarantees, acting as localized informational hubs."
+        "question": "What about SRA rules on advertising?",
+        "answer": "The pages are informational and avoid guarantees or outcome claims. Your firm signs off every template before anything goes live, because responsibility for compliance with the SRA's rules stays with you, and I build the process around that."
       },
       {
-        "question": "Can you target specific practice areas and counties?",
-        "answer": "Yes. Our engine multiplies your practice areas (e.g., DUI, Divorce, Injury) by every county and city in your state."
+        "question": "Can you target specific practice areas and towns?",
+        "answer": "Yes. The page set is your practice areas multiplied by the towns and cities you genuinely serve, and nothing outside that."
       }
     ],
-    "exampleQuery": "car accident solicitor in Birmingham",
     "exampleSlugs": [
       "car-accident-solicitor-birmingham",
       "medical-negligence-lawyer-leeds",
-      "no-win-no-fee-claims-manchester"
+      "employment-solicitor-solihull"
     ]
   },
   {
     "slug": "accounting",
-    "name": "Accounting Firms",
-    "painPoint": "blending in with every other local CPA firm during tax season",
-    "benefit": "scale your book of business with year-round corporate clients",
+    "name": "Accountancy Firms",
+    "painPoint": "blending in with every other local accountant",
+    "benefit": "win the specialist clients searching for exactly what you do",
     "icon": "Calculator",
-    "industryStats": "64% of small businesses search online when looking to switch CPAs or find specialized tax help.",
-    "tailoredExplanation": "Businesses don't just look for an 'accountant'—they search for 'R&D tax credit specialist in Seattle' or 'E-commerce bookkeeper for Shopify.' Our pSEO engine creates tailored landing pages for every specialized accounting service across every industry you serve, capturing high-ticket corporate clients year-round.",
-    "mockCaseStudy": {
-      "title": "Boutique CPA Firm",
-      "metric": "42",
-      "description": "New high-retainer corporate clients signed in 12 months through niche-specific tax strategy pages."
+    "searcher": "The founder of a software company who's heard about R&D tax relief",
+    "exampleQuery": "R&D tax relief specialist for software companies",
+    "pageShows": "a page about that service for that type of business: who qualifies, what you need to claim, and how your firm handles it",
+    "action": "book a call with your team",
+    "tailoredExplanation": "Businesses don't just search for 'an accountant'. They search for a service for their situation, like 'R&D tax relief for software companies', 'Xero accountant for e-commerce' or 'contractor accountants in London'. I build a page for each specialist service and each type of client you serve.",
+    "matrix": {
+      "rowLabel": "specialist services",
+      "rows": [
+        "R&D tax relief",
+        "Xero bookkeeping",
+        "VAT returns",
+        "Contractor accounts"
+      ],
+      "rowCount": 10,
+      "colLabel": "client types",
+      "cols": [
+        "Software firms",
+        "E-commerce",
+        "Contractors",
+        "Landlords"
+      ],
+      "colCount": 25
     },
+    "samplePage": {
+      "url": "/rd-tax-relief-for-software-companies",
+      "title": "R&D tax relief for software companies",
+      "intro": "Building new software can qualify for R&D tax relief. Here's who's likely to qualify and what a claim involves.",
+      "points": [
+        "What usually qualifies in software projects",
+        "What records you need",
+        "How we handle claims for software businesses"
+      ],
+      "cta": "Book a call"
+    },
+    "valueLabel": "a new client in their first year",
     "faqs": [
       {
-        "question": "Does this work for specialized tax credits like ERTC or R&D?",
-        "answer": "Yes, that is where pSEO shines. We generate pages combining tax credits with specific industries (e.g., 'R&D Tax Credits for Manufacturing Firms')."
+        "question": "Does this work for specialist areas like R&D tax relief?",
+        "answer": "Yes, that's where it works best. Combining a specialist service with a type of business ('R&D tax relief for manufacturers') creates searches where a generic accountant's site doesn't compete."
       },
       {
-        "question": "Can we limit the geography to our state?",
-        "answer": "We can build the engine for a single city, an entire state, or a nationwide digital-first accounting practice."
+        "question": "Can we keep it to our local area?",
+        "answer": "Yes. The page set can cover one town, a county, the whole UK if you work remotely, or a mix."
       }
     ],
-    "exampleQuery": "R&D tax relief specialist for software companies",
     "exampleSlugs": [
       "rd-tax-relief-for-software-companies",
       "xero-accountant-for-ecommerce",
@@ -151,118 +286,226 @@
   },
   {
     "slug": "hvac",
-    "name": "HVAC Businesses",
-    "painPoint": "losing emergency repair calls to competitors with better local visibility",
-    "benefit": "own every neighborhood in your service area",
+    "name": "Heating & Air Conditioning Engineers",
+    "painPoint": "losing emergency call-outs to competitors who show up first",
+    "benefit": "show up in every area you cover",
     "icon": "Thermometer",
-    "industryStats": "Over 80% of HVAC searches are local, emergency-driven queries performed on mobile devices.",
-    "tailoredExplanation": "When a furnace breaks in winter, homeowners search for 'emergency furnace repair in [Neighborhood].' Traditional SEO only targets your main city. Our programmatic engine generates a dedicated, hyper-localized page for every single suburb, neighborhood, and zip code in your service area.",
-    "mockCaseStudy": {
-      "title": "Regional HVAC Contractor",
-      "metric": "315%",
-      "description": "Increase in emergency dispatch calls during peak season after launching 300 neighborhood-specific repair pages."
+    "searcher": "A homeowner in Clapham whose boiler has just packed in on a cold evening",
+    "exampleQuery": "emergency boiler repair in Clapham",
+    "pageShows": "a page for that job in that area: that you cover Clapham, what an emergency call-out involves, the brands you work on, and your phone number at the top",
+    "action": "tap to call you",
+    "tailoredExplanation": "When a boiler breaks, people search for the problem and their area, like 'emergency boiler repair in Clapham'. A normal website has one page about boiler repair and one town on it. I build a page for every service and every area you cover, so you show up wherever your customers actually are.",
+    "matrix": {
+      "rowLabel": "services",
+      "rows": [
+        "Emergency boiler repair",
+        "Boiler installation",
+        "Boiler servicing",
+        "Air conditioning"
+      ],
+      "rowCount": 8,
+      "colLabel": "areas you cover",
+      "cols": [
+        "Clapham",
+        "Brixton",
+        "Balham",
+        "Streatham"
+      ],
+      "colCount": 40
     },
+    "samplePage": {
+      "url": "/emergency-boiler-repair-clapham",
+      "title": "Emergency boiler repair in Clapham",
+      "intro": "No heating or hot water? Our Gas Safe engineers cover Clapham and the surrounding areas.",
+      "points": [
+        "What happens when you call",
+        "Boiler brands we work on",
+        "Other areas we cover nearby"
+      ],
+      "cta": "Call now"
+    },
+    "valueLabel": "one new customer",
     "faqs": [
       {
-        "question": "How do you get content for 300 different neighborhoods?",
-        "answer": "We use programmatic data enrichment to pull in local neighborhood data, localized maps, and dynamic service areas to make each page uniquely valuable."
+        "question": "How does each area page say something different?",
+        "answer": "Each page combines your real details for that area (which services you offer there, which nearby areas you cover, your response arrangements) with local information, so it isn't just the town name swapped in."
       },
       {
-        "question": "Will this help with AC replacements, not just repairs?",
-        "answer": "Yes. We create separate page matrices for high-ticket installations, maintenance plans, and emergency repairs."
+        "question": "Will this help with installations, not just repairs?",
+        "answer": "Yes. Installations, servicing and emergency repairs get their own pages, because people search for them differently and they're worth different amounts to you."
       }
     ],
-    "exampleQuery": "emergency boiler repair in Clapham",
     "exampleSlugs": [
       "emergency-boiler-repair-clapham",
-      "ac-installation-croydon",
-      "heating-engineer-shoreditch"
+      "boiler-installation-brixton",
+      "air-conditioning-installation-balham"
     ]
   },
   {
     "slug": "plumbing",
-    "name": "Plumbing Services",
-    "painPoint": "waiting for the phone to ring instead of predictably scaling your fleet",
-    "benefit": "flood your dispatch with high-margin emergency calls",
+    "name": "Plumbers",
+    "painPoint": "waiting for the phone to ring",
+    "benefit": "get found for every job you do in every area you cover",
     "icon": "Wrench",
-    "industryStats": "Plumbing is highly localized; 92% of consumers choose a plumber on the first page of local search results.",
-    "tailoredExplanation": "People search for their exact problem and their exact location, like 'burst pipe repair in Westside.' Our pSEO engine combines your service list (water heaters, drain cleaning, leaks) with every local neighborhood to ensure you own the search results right when the customer needs you most.",
-    "mockCaseStudy": {
-      "title": "Family-Owned Plumbing Fleet",
-      "metric": "4x",
-      "description": "Growth in commercial plumbing contracts and water heater replacements driven by targeted local search pages."
+    "searcher": "Someone in Islington with water coming through the kitchen ceiling",
+    "exampleQuery": "burst pipe repair in Islington",
+    "pageShows": "a page for that job in that area: that you cover Islington, what to do while they wait, and a call button at the top",
+    "action": "tap to call you",
+    "tailoredExplanation": "People search for their exact problem and their exact area, like 'burst pipe repair in Islington'. I combine your list of services (leaks, blocked drains, water heaters, bathroom fits) with every area you cover, so there's a page waiting when someone needs you.",
+    "matrix": {
+      "rowLabel": "services",
+      "rows": [
+        "Burst pipes",
+        "Blocked drains",
+        "Water heaters",
+        "Bathroom fitting"
+      ],
+      "rowCount": 8,
+      "colLabel": "areas you cover",
+      "cols": [
+        "Islington",
+        "Hackney",
+        "Camden",
+        "Highbury"
+      ],
+      "colCount": 40
     },
+    "samplePage": {
+      "url": "/burst-pipe-repair-islington",
+      "title": "Burst pipe repair in Islington",
+      "intro": "Water where it shouldn't be? Here's what to do right now, and how fast we can get to you in Islington.",
+      "points": [
+        "Turn off your stopcock: here's where to find it",
+        "What happens when we arrive",
+        "Other areas we cover nearby"
+      ],
+      "cta": "Call now"
+    },
+    "valueLabel": "one new customer",
     "faqs": [
       {
-        "question": "Are these pages mobile optimized?",
-        "answer": "Yes. Knowing that most plumbing searches are emergencies on mobile, our Next.js pages load in milliseconds with click-to-call buttons front and center."
+        "question": "Do the pages work on phones?",
+        "answer": "Yes. Most of these searches happen on a phone in a hurry, so pages are built to load quickly with a call button at the top."
       },
       {
-        "question": "Can we turn off certain locations if we get too busy?",
-        "answer": "Absolutely. The programmatic engine allows you to toggle service areas on and off instantly."
+        "question": "Can we switch off areas if we get too busy?",
+        "answer": "Yes. Areas are controlled from the data behind the pages, so I can pause an area or a service without rebuilding anything."
       }
     ],
-    "exampleQuery": "burst pipe repair in Islington",
     "exampleSlugs": [
       "burst-pipe-repair-islington",
-      "water-heater-installation-hackney",
-      "blocked-drain-plumber-leeds"
+      "blocked-drain-plumber-hackney",
+      "water-heater-installation-camden"
     ]
   },
   {
     "slug": "roofing",
     "name": "Roofing Contractors",
-    "painPoint": "relying on unpredictable storm chasing or expensive lead aggregators",
-    "benefit": "build a predictable pipeline of roof replacement projects",
+    "painPoint": "paying for shared leads from directories and lead sites",
+    "benefit": "get enquiries that come only to you",
     "icon": "Home",
-    "industryStats": "Roofing leads from aggregators (like Angi) are sold to 3-5 competitors simultaneously, driving down margins.",
-    "tailoredExplanation": "To escape the aggregator rat race, you need to intercept homeowners *before* they go to HomeAdvisor. Homeowners search for 'asphalt shingle repair in [City]' or 'commercial flat roof replacement in [County].' We programmatically generate these exact pages to capture exclusive leads.",
-    "mockCaseStudy": {
-      "title": "Commercial & Residential Roofer",
-      "metric": "$2.4M",
-      "description": "In new annual revenue generated purely from exclusive, inbound leads through local service pages."
+    "searcher": "A homeowner in Bromley whose flat-roof extension has started leaking",
+    "exampleQuery": "flat roof replacement in Bromley",
+    "pageShows": "a page for that job in that area: the flat-roof systems you fit, what a replacement involves, photos of local work if you have them, and a quote form",
+    "action": "ask you for a quote",
+    "tailoredExplanation": "Leads from directories and lead-gen sites are often sent to several roofers at once, so you're competing on price before you've spoken to anyone. Homeowners search for the job and their area, like 'flat roof replacement in Bromley'. I build those pages for you, so the enquiry comes straight to you.",
+    "matrix": {
+      "rowLabel": "services",
+      "rows": [
+        "Flat roof replacement",
+        "Roof repairs",
+        "Guttering",
+        "Commercial roofing"
+      ],
+      "rowCount": 8,
+      "colLabel": "areas you cover",
+      "cols": [
+        "Bromley",
+        "Orpington",
+        "Beckenham",
+        "Sevenoaks"
+      ],
+      "colCount": 40
     },
+    "samplePage": {
+      "url": "/flat-roof-replacement-bromley",
+      "title": "Flat roof replacement in Bromley",
+      "intro": "Leaking extension or garage roof? We replace flat roofs across Bromley and nearby.",
+      "points": [
+        "The flat-roof systems we fit",
+        "What a replacement involves, step by step",
+        "Get a free quote"
+      ],
+      "cta": "Get a quote"
+    },
+    "valueLabel": "one new customer",
     "faqs": [
       {
-        "question": "Can we target both commercial and residential?",
-        "answer": "Yes. We build two separate funnels within the engine: one targeting B2B property managers and one for residential homeowners."
+        "question": "Can we target both commercial and residential work?",
+        "answer": "Yes. They become separate sets of pages, one written for property managers and one for homeowners, because they search and decide differently."
       },
       {
-        "question": "How do you handle storm damage?",
-        "answer": "We can pre-build storm damage and hail repair pages for every zip code, instantly activating them the moment a storm hits."
+        "question": "What about storm damage?",
+        "answer": "Storm-damage pages for your areas can be built in advance and switched on when a big storm hits, so you're ready when the searches spike."
       }
     ],
-    "exampleQuery": "flat roof replacement in Bromley",
     "exampleSlugs": [
       "flat-roof-replacement-bromley",
-      "storm-damage-roofer-kent",
-      "commercial-roofing-contractors-essex"
+      "storm-damage-roof-repair-orpington",
+      "commercial-roofing-sevenoaks"
     ]
   },
   {
     "slug": "dentists",
     "name": "Dental Practices",
-    "painPoint": "struggling to attract high-margin cosmetic dentistry patients",
-    "benefit": "fill your chairs with patients actively searching for Invisalign and implants",
+    "painPoint": "struggling to attract private and cosmetic patients",
+    "benefit": "reach patients searching for specific treatments near them",
     "icon": "Smile",
-    "industryStats": "Cosmetic dentistry searches (like veneers and implants) have high search volumes but massive local competition.",
-    "tailoredExplanation": "Patients don't just search for 'dentist.' They search for 'affordable dental implants in [Neighborhood]' or 'Invisalign for adults in [City].' We build a comprehensive programmatic engine that maps every single cosmetic and restorative procedure you offer to every surrounding town and suburb.",
-    "mockCaseStudy": {
-      "title": "Multi-Location Dental Group",
-      "metric": "+140",
-      "description": "New high-value cosmetic patient bookings per month directly attributed to long-tail procedure searches."
+    "searcher": "An adult in Wimbledon who has been thinking about straightening their teeth for years",
+    "exampleQuery": "Invisalign for adults in Wimbledon",
+    "pageShows": "a page for that treatment near them: who it suits, what the process looks like, your practice's details, and a way to book a consultation",
+    "action": "book a consultation",
+    "tailoredExplanation": "Patients don't just search for 'dentist'. They search for a treatment near them, like 'dental implants in Wimbledon' or 'Invisalign for adults in Richmond'. I build a page for each private treatment you offer and each area your patients come from.",
+    "matrix": {
+      "rowLabel": "treatments",
+      "rows": [
+        "Dental implants",
+        "Invisalign",
+        "Teeth whitening",
+        "Veneers"
+      ],
+      "rowCount": 8,
+      "colLabel": "nearby areas",
+      "cols": [
+        "Wimbledon",
+        "Putney",
+        "Richmond",
+        "Kingston"
+      ],
+      "colCount": 25
     },
+    "samplePage": {
+      "url": "/invisalign-for-adults-wimbledon",
+      "title": "Invisalign for adults in Wimbledon",
+      "intro": "Clear aligners for adults who want straighter teeth without fixed braces.",
+      "points": [
+        "Who Invisalign suits",
+        "What happens at your consultation",
+        "Finance options and how to book"
+      ],
+      "cta": "Book a consultation"
+    },
+    "valueLabel": "a new private patient in their first year",
     "faqs": [
       {
-        "question": "We have 3 office locations. How does this work?",
-        "answer": "Perfect. We use your physical locations as the 'hubs' and generate programmatic 'spoke' pages targeting all the surrounding suburbs without physical offices."
+        "question": "What about GDC guidance on advertising?",
+        "answer": "Your practice approves every treatment template before it goes live. The pages are written to inform, not to promise results, and your clinicians have the final say on anything clinical."
       },
       {
-        "question": "Does this replace our main practice website?",
-        "answer": "No. The pSEO engine sits on a subdomain (like services.yourpractice.com) to funnel traffic, while your main site remains untouched."
+        "question": "Does this replace our practice website?",
+        "answer": "No. The pages can sit in a subfolder or on a subdomain and send patients through to your booking system, while your main site stays as it is."
       }
     ],
-    "exampleQuery": "dental implants in Wimbledon",
     "exampleSlugs": [
       "dental-implants-wimbledon",
       "invisalign-for-adults-richmond",

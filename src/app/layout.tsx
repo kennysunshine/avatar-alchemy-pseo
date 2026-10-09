@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -19,16 +20,24 @@ export const metadata: Metadata = {
     template: "%s",
   },
   description:
-    "Avatar Alchemy builds programmatic SEO engines — thousands of long-tail landing pages on Next.js that turn search intent into qualified leads.",
+    "Programmatic SEO for UK businesses: a useful page for every service and area you cover, so customers find you instead of a competitor.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
-      lang="en"
+      lang="en-GB"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        {children}
+        {/* Vercel Web Analytics: cookieless page-view counts. Only reports once
+            Analytics is switched on for this project in the Vercel dashboard. */}
+        <Script id="vercel-analytics-queue" strategy="afterInteractive">
+          {`window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };`}
+        </Script>
+        <Script src="/_vercel/insights/script.js" strategy="afterInteractive" />
+      </body>
     </html>
   );
 }
