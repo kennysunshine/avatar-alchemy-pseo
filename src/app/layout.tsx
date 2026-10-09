@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import Script from "next/script";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -31,12 +31,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="min-h-full flex flex-col">
         {children}
-        {/* Vercel Web Analytics: cookieless page-view counts. Only reports once
-            Analytics is switched on for this project in the Vercel dashboard. */}
-        <Script id="vercel-analytics-queue" strategy="afterInteractive">
-          {`window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };`}
-        </Script>
-        <Script src="/_vercel/insights/script.js" strategy="afterInteractive" />
+        <Analytics />
       </body>
     </html>
   );
