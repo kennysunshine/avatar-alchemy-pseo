@@ -152,8 +152,7 @@ export const exampleBuilds: ExampleBuild[] = [
     description: 'pages across five education sites, covering subject × level × location × exam board.',
   },
   {
-    // Switch on once the placeholder contact form is fixed.
-    show: false,
+    show: true,
     title: 'The Shiftpoint: addiction recovery clinic',
     relationship: 'Partner build',
     url: 'https://www.theshiftpoint.co.uk',
