@@ -265,11 +265,11 @@ export function ExampleBuilds() {
 export function AboutKenny() {
   return (
     <div className="max-w-3xl mx-auto p-6 sm:p-10 bg-[#0d1527] border border-white/10 rounded-2xl">
-      <p className="text-xs font-semibold uppercase tracking-widest text-blue-400 mb-3">Who you&apos;d be working with</p>
+      <p className="text-xs font-semibold uppercase tracking-widest text-blue-400 mb-3">Who builds your pages</p>
       <h2 className="text-2xl md:text-3xl font-bold text-white mb-5">I&apos;m Kenny Swann.</h2>
       <div className="space-y-4 text-slate-300 text-lg leading-relaxed">
         <p>
-          I run Avatar Alchemy from Glastonbury in Somerset. It&apos;s a one-person business, and when you book a call you&apos;re talking to the person who&apos;ll do the work.
+          I run Avatar Alchemy from Glastonbury in Somerset. You might first talk to one of my sales partners, but every build is planned, built and checked by me.
         </p>
         <p>
           I build these page systems with AI tools, and I check the data and every claim on the pages myself, because one wrong price or made-up fact on a page costs you more than it gains. The first system I built was for my own tutoring platform, LumenForge, which now runs over 1,100 pages across five sites.
@@ -323,7 +323,7 @@ export function OpportunityCta({ compact = false }: { compact?: boolean }) {
       </a>
       {!compact && (
         <p className="text-slate-400 mt-4 leading-relaxed">
-          I&apos;ll bring a rough map of what people search for in your area for your services, so you can see what&apos;s there before you spend anything. No obligation.
+          We&apos;ll bring a rough map of what people search for in your area for your services, so you can see what&apos;s there before you spend anything. No obligation.
         </p>
       )}
     </div>

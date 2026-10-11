@@ -31,7 +31,7 @@ export default function PrivacyPage() {
             <h2 className="text-xl font-bold text-white mb-3">What I collect and why</h2>
             <ul className="list-disc pl-6 space-y-3">
               <li>
-                <span className="text-white">When you book a call.</span> Bookings are handled by Calendly. I receive your name, email address and anything you write in the booking form, such as your business name, website and the services and areas you cover. I use this to prepare for and hold the call, and to follow up about it. Calendly also processes this information under its own privacy policy.
+                <span className="text-white">When you book a call.</span> Bookings are handled by Calendly. I receive your name, email address and anything you write in the booking form, such as your business name, website and the services and areas you cover. I use this to prepare for and hold the call, and to follow up about it. Calendly also processes this information under its own privacy policy. If you were introduced by one of my sales partners, they see these details too, use them only to prepare for and hold the call, and pass them to me.
               </li>
               <li>
                 <span className="text-white">When you email me.</span> I keep your message and email address so I can reply and keep a record of our conversation.
