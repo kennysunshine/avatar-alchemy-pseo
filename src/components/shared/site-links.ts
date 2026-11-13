@@ -22,6 +22,10 @@ export const pseoHref = (path: string) => (THIS_SITE === "pseo" ? path : `${PSEO
 
 export const CTA_HREF = mainHref(CTA_PATH);
 
+// Second, smaller option: the self-serve audit app.
+export const AUDIT_TOOL_LABEL = "Try the free audit tool";
+export const AUDIT_TOOL_HREF = "https://audit.avatar-alchemy.com";
+
 export const NAV_LINKS: { label: string; href: string }[] = [
     { label: "Home", href: mainHref("/") },
     { label: "AI Visibility", href: mainHref("/ai-visibility") },
