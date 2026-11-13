@@ -22,7 +22,7 @@ export default function PrivacyPage() {
           <section>
             <h2 className="text-xl font-bold text-white mb-3">Who I am</h2>
             <p>
-              This site is run by Kenny Sunshine, a sole trader trading as Avatar Alchemy AI, based in Glastonbury, Somerset, UK. I&apos;m responsible for the personal information described here. You can contact me at{' '}
+              This site is run by Kenny Sunshine, a sole trader trading as Avatar Alchemy AI, based in Somerset, UK. I&apos;m responsible for the personal information described here. You can contact me at{' '}
               <a href={`mailto:${CONTACT_EMAIL}`} className="text-blue-400 hover:text-blue-300">{CONTACT_EMAIL}</a>.
             </p>
           </section>

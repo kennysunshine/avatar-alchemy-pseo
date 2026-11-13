@@ -8,7 +8,7 @@ export const MAIN_URL = "https://www.avatar-alchemy.com";
 export const PSEO_URL = "https://pseo.avatar-alchemy.com";
 export const CONTACT_EMAIL = "kenny.swann@avatar-alchemy.com";
 export const TRADING_NAME = "Avatar Alchemy";
-export const LOCATION = "Glastonbury, Somerset, UK";
+export const LOCATION = "Somerset, UK";
 
 // The one call to action used everywhere, on both sites.
 export const CTA_LABEL = "Book a free AI visibility check";

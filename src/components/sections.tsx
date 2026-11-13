@@ -229,7 +229,7 @@ export function AboutKenny() {
       <h2 className="text-2xl md:text-3xl font-bold text-white mb-5">I&apos;m Kenny Swann.</h2>
       <div className="space-y-4 text-slate-300 text-lg leading-relaxed">
         <p>
-          I run Avatar Alchemy from Glastonbury in Somerset. You might first talk to one of my sales partners, but every build is planned, built and checked by me.
+          I run Avatar Alchemy from Somerset and work with businesses wherever they are. You might first talk to one of my sales partners, but every build is planned, built and checked by me.
         </p>
         <p>
           I build these page systems with AI tools, and I check the data and every claim on the pages myself, because one wrong price or made-up fact on a page costs you more than it gains. The first system I built was for my own tutoring platform, LumenForge, which now runs over 1,100 pages across five sites.

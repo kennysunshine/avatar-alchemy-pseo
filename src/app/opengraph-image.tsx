@@ -29,7 +29,7 @@ export default function OpengraphImage() {
             I build a page for every service and area you cover, so they find you.
           </div>
         </div>
-        <div style={{ display: 'flex', fontSize: 26, color: '#64748b' }}>pseo.avatar-alchemy.com · Glastonbury, Somerset</div>
+        <div style={{ display: 'flex', fontSize: 26, color: '#64748b' }}>pseo.avatar-alchemy.com · Somerset, UK</div>
       </div>
     ),
     size,
