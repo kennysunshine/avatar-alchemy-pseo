@@ -1,8 +1,9 @@
-import Image from 'next/image';
+import { SiteHeader } from '@/components/shared/SiteHeader';
 import Link from 'next/link';
 import { ArrowRight, Check, Phone, Search, FileText, X, MapPin } from 'lucide-react';
 import {
   BOOKING_URL,
+  CTA_LABEL,
   PRICING,
   deliverables,
   wontPromise,
@@ -10,54 +11,13 @@ import {
   CONTACT_EMAIL,
 } from '@/data/shared-content';
 
-export function SiteNav({ showBack = false }: { showBack?: boolean }) {
-  return (
-    <nav className="fixed w-full z-50 bg-[#070b14]/90 backdrop-blur-md border-b border-white/5">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20 gap-4">
-          <div className="flex items-center gap-6 min-w-0">
-            {showBack && (
-              <Link href="/" className="flex items-center gap-2 text-slate-400 hover:text-white transition-colors text-sm font-medium whitespace-nowrap">
-                <span aria-hidden="true">&larr;</span> All industries
-              </Link>
-            )}
-            <a href="https://www.avatar-alchemy.com/" className={`relative w-40 sm:w-48 h-12 hover:opacity-80 transition-opacity ${showBack ? 'hidden sm:block' : ''}`}>
-              <Image src="/main-logo.png" alt="Avatar Alchemy AI" fill className="object-contain object-left" />
-            </a>
-          </div>
-          <a
-            href={BOOKING_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center px-4 sm:px-6 py-2.5 text-sm font-bold rounded-full text-white bg-blue-500 hover:bg-blue-600 transition-all shadow-[0_0_20px_rgba(59,130,246,0.3)] whitespace-nowrap"
-          >
-            Book a free call
-          </a>
-        </div>
-      </div>
-    </nav>
-  );
+// Header and footer are shared with avatar-alchemy.com: see src/components/shared/.
+// `showBack` is kept so existing pages compile; the shared header replaces the old back link.
+export function SiteNav({}: { showBack?: boolean }) {
+  return <SiteHeader />;
 }
 
-export function SiteFooter() {
-  return (
-    <footer className="bg-[#070b14] py-12 border-t border-white/5">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center text-center gap-3">
-        <p className="text-sm text-slate-400">
-          Trading as Avatar Alchemy AI · Glastonbury, Somerset, UK
-        </p>
-        <p className="text-sm">
-          <a href={`mailto:${CONTACT_EMAIL}`} className="text-blue-400 hover:text-blue-300">{CONTACT_EMAIL}</a>
-          <span className="text-slate-600 mx-2">·</span>
-          <Link href="/privacy" className="text-slate-400 hover:text-white">Privacy</Link>
-        </p>
-        <p className="text-sm text-slate-600">
-          © {new Date().getFullYear()} Avatar Alchemy AI. All rights reserved.
-        </p>
-      </div>
-    </footer>
-  );
-}
+export { SiteFooter } from '@/components/shared/SiteFooter';
 
 export function SectionHeading({ eyebrow, title, intro }: { eyebrow?: string; title: React.ReactNode; intro?: React.ReactNode }) {
   return (
@@ -315,15 +275,13 @@ export function OpportunityCta({ compact = false }: { compact?: boolean }) {
     <div className={compact ? '' : 'max-w-2xl mx-auto'}>
       <a
         href={BOOKING_URL}
-        target="_blank"
-        rel="noopener noreferrer"
         className="inline-flex items-center justify-center px-8 sm:px-10 py-4 text-lg font-bold rounded-full text-white bg-blue-600 hover:bg-blue-500 transition-all shadow-[0_0_30px_rgba(59,130,246,0.3)] hover:shadow-[0_0_40px_rgba(59,130,246,0.5)]"
       >
-        Book a free 30-minute call <ArrowRight className="ml-2 w-5 h-5" />
+        {CTA_LABEL} <ArrowRight className="ml-2 w-5 h-5" />
       </a>
       {!compact && (
         <p className="text-slate-400 mt-4 leading-relaxed">
-          We&apos;ll bring a rough map of what people search for in your area for your services, so you can see what&apos;s there before you spend anything. No obligation.
+          I&apos;ll show you what ChatGPT and Gemini currently say about your business, and bring a rough map of what people search for in your area, so you can see what&apos;s there before you spend anything. No obligation.
         </p>
       )}
     </div>

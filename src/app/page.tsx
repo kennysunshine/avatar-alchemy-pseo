@@ -4,7 +4,7 @@ import { ArrowRight, ArrowDown } from 'lucide-react';
 import ParticleBackground from '@/components/ParticleBackground';
 import { FadeIn } from '@/components/AnimatedHero';
 import type { Metadata } from 'next';
-import { BOOKING_URL, SITE_URL } from '@/data/shared-content';
+import { BOOKING_URL, CTA_LABEL, SITE_URL } from '@/data/shared-content';
 import {
   SiteNav,
   SiteFooter,
@@ -54,8 +54,8 @@ export default function HomePage() {
           </FadeIn>
           <FadeIn delay={0.55}>
             <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
-              <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-8 py-3.5 text-base font-bold rounded-md text-white bg-blue-500 hover:bg-blue-600 transition-all shadow-[0_0_20px_rgba(59,130,246,0.4)]">
-                Book a free call
+              <a href={BOOKING_URL} className="inline-flex items-center justify-center px-8 py-3.5 text-base font-bold rounded-full text-white bg-blue-500 hover:bg-blue-600 transition-all shadow-[0_0_20px_rgba(59,130,246,0.4)]">
+                {CTA_LABEL}
               </a>
               <a href="#industries" className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium rounded-md text-white border border-white/10 hover:bg-white/5 transition-colors">
                 <ArrowDown className="mr-2 w-4 h-4" /> Find your industry
@@ -118,7 +118,7 @@ export default function HomePage() {
             ))}
           </div>
           <p className="text-center text-slate-500 mt-8">
-            Not listed? If your customers search for a service plus a place, it probably works for you too. <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 font-semibold">Ask me.</a>
+            Not listed? If your customers search for a service plus a place, it probably works for you too. <a href={BOOKING_URL} className="text-blue-400 hover:text-blue-300 font-semibold">Ask me.</a>
           </p>
         </div>
       </section>

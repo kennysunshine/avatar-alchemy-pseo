@@ -5,7 +5,8 @@
 // guarantees that cannot be backed by evidence. Illustrative examples must be
 // labelled as illustrative where they are shown.
 
-export const BOOKING_URL = 'https://calendly.com/kennysunshine-sun/30min';
+// The one call to action, shared with avatar-alchemy.com (see src/components/shared/site-links.ts).
+export { CTA_HREF as BOOKING_URL, CTA_LABEL } from '@/components/shared/site-links';
 export const SITE_URL = 'https://pseo.avatar-alchemy.com';
 export const CONTACT_EMAIL = 'kenny.swann@avatar-alchemy.com';
 

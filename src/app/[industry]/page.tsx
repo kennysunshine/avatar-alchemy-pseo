@@ -5,6 +5,7 @@ import {
   qualitySafeguards,
   comparisonRows,
   BOOKING_URL,
+  CTA_LABEL,
   SITE_URL,
   PRICING,
 } from '@/data/shared-content';
@@ -124,8 +125,8 @@ export default async function IndustryPage({ params }: PageProps) {
           </FadeIn>
           <FadeIn delay={0.55}>
             <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
-              <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-8 py-3.5 text-base font-bold rounded-md text-white bg-blue-500 hover:bg-blue-600 transition-all shadow-[0_0_20px_rgba(59,130,246,0.4)]">
-                Book a free call
+              <a href={BOOKING_URL} className="inline-flex items-center justify-center px-8 py-3.5 text-base font-bold rounded-full text-white bg-blue-500 hover:bg-blue-600 transition-all shadow-[0_0_20px_rgba(59,130,246,0.4)]">
+                {CTA_LABEL}
               </a>
               <a href="#how-it-helps" className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium rounded-md text-white border border-white/10 hover:bg-white/5 transition-colors">
                 <ArrowDown className="mr-2 w-4 h-4" /> See how it works for you
