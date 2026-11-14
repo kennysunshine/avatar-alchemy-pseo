@@ -171,63 +171,6 @@
     ]
   },
   {
-    "slug": "legal",
-    "name": "Law Firms",
-    "painPoint": "paying high cost-per-click rates for competitive legal searches",
-    "benefit": "show up for the specific legal problems people search for in your area",
-    "icon": "Scale",
-    "searcher": "Someone in Birmingham who was hurt in a car accident last week",
-    "exampleQuery": "car accident solicitor in Birmingham",
-    "pageShows": "a page about that type of claim in that area: what the process looks like, what to gather now, and how your firm handles it",
-    "action": "call or fill in your enquiry form",
-    "tailoredExplanation": "People search for a legal problem in a place, like 'car accident solicitor in Birmingham' or 'medical negligence lawyer in Leeds'. Those clicks are expensive on Google Ads. I build a page for each practice area and location you serve, so you can win them organically instead of paying for every visit.",
-    "matrix": {
-      "rowLabel": "practice areas",
-      "rows": [
-        "Road traffic accidents",
-        "Medical negligence",
-        "Divorce",
-        "Employment"
-      ],
-      "rowCount": 8,
-      "colLabel": "towns and cities",
-      "cols": [
-        "Birmingham",
-        "Coventry",
-        "Wolverhampton",
-        "Solihull"
-      ],
-      "colCount": 30
-    },
-    "samplePage": {
-      "url": "/car-accident-solicitor-birmingham",
-      "title": "Car accident solicitors in Birmingham",
-      "intro": "If you've been hurt in a road accident in Birmingham, here's what the claims process looks like and what to do first.",
-      "points": [
-        "What to gather in the first week",
-        "How long claims usually take",
-        "Speak to our team for an initial chat"
-      ],
-      "cta": "Request a callback"
-    },
-    "valueLabel": "one new client matter",
-    "faqs": [
-      {
-        "question": "What about SRA rules on advertising?",
-        "answer": "The pages are informational and avoid guarantees or outcome claims. Your firm signs off every template before anything goes live, because responsibility for compliance with the SRA's rules stays with you, and I build the process around that."
-      },
-      {
-        "question": "Can you target specific practice areas and towns?",
-        "answer": "Yes. The page set is your practice areas multiplied by the towns and cities you genuinely serve, and nothing outside that."
-      }
-    ],
-    "exampleSlugs": [
-      "car-accident-solicitor-birmingham",
-      "medical-negligence-lawyer-leeds",
-      "employment-solicitor-solihull"
-    ]
-  },
-  {
     "slug": "accounting",
     "name": "Accountancy Firms",
     "painPoint": "blending in with every other local accountant",

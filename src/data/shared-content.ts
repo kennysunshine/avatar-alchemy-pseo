@@ -10,9 +10,12 @@ export { CTA_HREF as BOOKING_URL, CTA_LABEL } from '@/components/shared/site-lin
 export const SITE_URL = 'https://pseo.avatar-alchemy.com';
 export const CONTACT_EMAIL = 'kenny.swann@avatar-alchemy.com';
 
+import { PRICES } from '@/components/shared/site-links';
+
+// Prices live in src/components/shared/site-links.ts, shared with avatar-alchemy.com.
 export const PRICING = {
-  build: 3000,
-  monthly: 1000,
+  build: PRICES.pseoBuild,
+  monthly: PRICES.pseoMonthly,
 };
 
 
@@ -110,6 +113,10 @@ export const deliverables: { title: string; detail: string }[] = [
   {
     title: 'A monthly report in plain English',
     detail: 'Pages live, how often they appeared in Google, clicks, and enquiries where you can track them.',
+  },
+  {
+    title: 'Everything in AI Visibility',
+    detail: 'Schema, Google Business Profile, listings, reviews, and a monthly check of what ChatGPT, Gemini and Perplexity say about you.',
   },
 ];
 

@@ -1,4 +1,5 @@
 import { SiteHeader } from '@/components/shared/SiteHeader';
+import { ABOUT, PRICES, gbp, mainHref } from '@/components/shared/site-links';
 import Link from 'next/link';
 import { ArrowRight, Check, Phone, Search, FileText, X, MapPin } from 'lucide-react';
 import {
@@ -226,14 +227,12 @@ export function AboutKenny() {
   return (
     <div className="max-w-3xl mx-auto p-6 sm:p-10 bg-[#0d1527] border border-white/10 rounded-2xl">
       <p className="text-xs font-semibold uppercase tracking-widest text-blue-400 mb-3">Who builds your pages</p>
-      <h2 className="text-2xl md:text-3xl font-bold text-white mb-5">I&apos;m Kenny Swann.</h2>
+      <h2 className="text-2xl md:text-3xl font-bold text-white mb-5">{ABOUT.heading}</h2>
+      {/* Same wording as the About section on avatar-alchemy.com (shared via site-links.ts) */}
       <div className="space-y-4 text-slate-300 text-lg leading-relaxed">
-        <p>
-          I run Avatar Alchemy from Somerset and work with businesses wherever they are. You might first talk to one of my sales partners, but every build is planned, built and checked by me.
-        </p>
-        <p>
-          I build these page systems with AI tools, and I check the data and every claim on the pages myself, because one wrong price or made-up fact on a page costs you more than it gains. The first system I built was for my own tutoring platform, LumenForge, which now runs over 1,100 pages across five sites.
-        </p>
+        {ABOUT.paragraphs.map((p) => (
+          <p key={p}>{p}</p>
+        ))}
       </div>
     </div>
   );
@@ -260,10 +259,21 @@ export function PricingBlock({ painPoint }: { painPoint?: string }) {
             £{PRICING.monthly.toLocaleString('en-GB')}<span className="text-lg text-slate-500 font-normal">/mo</span>
           </p>
           <p className="text-sm text-slate-400 mt-2">Hosting, monitoring, new pages and a monthly report.</p>
+          <p className="text-sm text-slate-300 mt-2">Everything in AI Visibility (schema, Google Business Profile, listings, reviews, monthly AI check).</p>
         </div>
       </div>
-      <p className="text-sm text-slate-500 mb-10">
+      <p className="text-sm text-slate-500 mb-6">
         No long contract. The monthly plan is rolling: stop any time and keep every page built so far.
+      </p>
+      <p className="text-slate-300 mb-2">
+        Not ready for a full build?{' '}
+        <a href={mainHref('/pricing')} className="text-blue-400 hover:text-blue-300 font-semibold">
+          Start with AI Visibility from {gbp(PRICES.aiVisibility6)}/month
+        </a>
+        .
+      </p>
+      <p className="text-sm text-slate-500 mb-10">
+        <a href={mainHref('/pricing')} className="hover:text-slate-300 underline underline-offset-4">Compare all plans and prices</a>
       </p>
       <OpportunityCta />
     </div>
