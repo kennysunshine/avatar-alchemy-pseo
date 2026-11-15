@@ -17,7 +17,7 @@ export function SiteHeader() {
                         <span className="text-lg font-bold text-white tracking-tight whitespace-nowrap">{TRADING_NAME}</span>
                     </a>
 
-                    <nav aria-label="Main" className="hidden lg:flex items-center gap-7 text-sm font-medium text-slate-300">
+                    <nav aria-label="Main" className="hidden xl:flex items-center gap-6 text-sm font-medium text-slate-300 whitespace-nowrap">
                         {NAV_LINKS.map((l) => (
                             <a key={l.label} href={l.href} className="hover:text-white transition-colors">
                                 {l.label}
@@ -35,7 +35,7 @@ export function SiteHeader() {
                         <button
                             type="button"
                             onClick={() => setOpen(!open)}
-                            className="lg:hidden p-2 text-slate-300 hover:text-white"
+                            className="xl:hidden p-2 text-slate-300 hover:text-white"
                             aria-label={open ? "Close menu" : "Open menu"}
                             aria-expanded={open}
                         >
@@ -46,7 +46,7 @@ export function SiteHeader() {
             </div>
 
             {open && (
-                <nav aria-label="Main" className="lg:hidden border-t border-white/5 bg-[#070b14] px-4 sm:px-6 py-6">
+                <nav aria-label="Main" className="xl:hidden border-t border-white/5 bg-[#070b14] px-4 sm:px-6 py-6">
                     <ul className="flex flex-col gap-1">
                         {NAV_LINKS.map((l) => (
                             <li key={l.label}>

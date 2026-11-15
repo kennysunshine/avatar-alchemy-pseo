@@ -4,8 +4,8 @@
 
 ### Changed
 - New shared header and footer, kept identical with avatar-alchemy.com (`src/components/shared/`).
-  - Navigation: Home | AI Visibility | Programmatic SEO | Pricing | About, plus the "Book a free AI visibility check" button. Everything except Programmatic SEO links to the main site.
-  - Footer: trading name "Avatar Alchemy" (was "Avatar Alchemy AI"), Somerset, UK (Glastonbury removed, as Kenny asked), email, Privacy, and a small "Video & AI Avatars" link.
+  - Navigation: Home | AI Visibility | Programmatic SEO | Video & AI Avatars | Pricing | About (full menu on screens 1280px and wider; ☰ menu below that), plus the "Book a free AI visibility check" button. Everything except Programmatic SEO links to the main site.
+  - Footer: trading name "Avatar Alchemy" (was "Avatar Alchemy AI"), Somerset, UK (Glastonbury removed, as Kenny asked), email and Privacy.
   - The new navy logo replaces the old brain logo in the header.
   - The "← All industries" back link on industry pages is gone; "Programmatic SEO" in the menu goes back to the industry list.
 - One call to action everywhere: "Book a free AI visibility check", going to www.avatar-alchemy.com/book (Calendly). Previously "Book a free call" and "Book a free 30-minute call" went straight to Calendly.

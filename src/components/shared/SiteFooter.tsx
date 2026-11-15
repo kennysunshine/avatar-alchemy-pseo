@@ -18,8 +18,6 @@ export function SiteFooter() {
                     <span className="text-slate-600 mx-2">·</span>
                     {/* Each site links to its own privacy page */}
                     <a href="/privacy" className="text-slate-400 hover:text-white">Privacy</a>
-                    <span className="text-slate-600 mx-2">·</span>
-                    <a href={mainHref("/video")} className="text-slate-500 hover:text-white text-xs">Video &amp; AI Avatars</a>
                 </p>
                 <p className="text-sm text-slate-600">
                     © {new Date().getFullYear()} {TRADING_NAME}. All rights reserved.

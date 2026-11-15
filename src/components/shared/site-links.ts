@@ -30,6 +30,7 @@ export const NAV_LINKS: { label: string; href: string }[] = [
     { label: "Home", href: mainHref("/") },
     { label: "AI Visibility", href: mainHref("/ai-visibility") },
     { label: "Programmatic SEO", href: pseoHref("/") },
+    { label: "Video & AI Avatars", href: mainHref("/video") },
     { label: "Pricing", href: mainHref("/pricing") },
     { label: "About", href: mainHref("/#about") },
 ];
