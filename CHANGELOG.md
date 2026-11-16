@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased] — branch `one-story`, Step 1: shared look and navigation
+## 2026-11-16 — branch `one-story`, Step 1: shared look and navigation (live)
 
 ### Changed
 - New shared header and footer, kept identical with avatar-alchemy.com (`src/components/shared/`).
@@ -13,7 +13,7 @@
 - Base font set to Geist (pages already used it).
 - Glastonbury removed from the About section, the link-preview image and the Privacy page; they now say Somerset. The About section adds that Kenny works with businesses wherever they are.
 
-## [Unreleased] — branch `one-story`, Step 5: pSEO site
+## 2026-11-16 — branch `one-story`, Step 5: pSEO site (live)
 
 - Pricing section: added "Not ready for a full build? Start with AI Visibility from £395/month", linking to www.avatar-alchemy.com/pricing, plus a "Compare all plans and prices" link.
 - Monthly plan: added "Everything in AI Visibility (schema, Google Business Profile, listings, reviews, monthly AI check)", both on the pricing card and in "What you get".
